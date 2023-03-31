@@ -5,14 +5,31 @@
     transform: translate(-50%, -50%);
     object-position: right;
  }
+
+ #c4{
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  object-position: right;
+}
  
- #set_image{
+ #set_image_der{
      position: relative;
      transform: scale(1.0);
      height: 1200px;
      width: 1200px;
      margin: 0 auto;
  }
+
+#set_image_c4{
+  position: relative;
+  transform: scale(1.0);
+  height: 1200px;
+  width: 1200px;
+  margin: 0 auto;
+}
+
 
  body {
     border: 10px solid black;
